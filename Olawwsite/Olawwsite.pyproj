@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <Name>Olawwsite</Name>
+    <RootNamespace>Olawwsite</RootNamespace>
+    <InterpreterId>{11050201-4c6a-4352-ac4d-e4f350604786}</InterpreterId>
+    <InterpreterVersion>3.4</InterpreterVersion>
+    <NameOfLastUsedPublishProfile>stellazom - Web Deploy</NameOfLastUsedPublishProfile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>98c68e95-a0ac-4f13-98f7-2e85add8a7be</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <ProjectTypeGuids>{5F0BE9CA-D677-4A4D-8806-6076C0FAAD37};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <StartupFile>manage.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <LaunchProvider>Django launcher</LaunchProvider>
+    <DjangoSettingsModule>Olawwsite.settings</DjangoSettingsModule>
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="app\admin.py" />
+    <Compile Include="app\apps.py" />
+    <Compile Include="app\migrations\__init__.py" />
+    <Compile Include="app\models.py" />
+    <Compile Include="app\tests.py" />
+    <Compile Include="app\views.py" />
+    <Compile Include="app\__init__.py" />
+    <Compile Include="manage.py" />
+    <Compile Include="Olawwsite\__init__.py" />
+    <Compile Include="Olawwsite\settings.py" />
+    <Compile Include="Olawwsite\urls.py" />
+    <Compile Include="Olawwsite\wsgi.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app\static\content\animate.min.css" />
+    <Content Include="app\static\content\bootstrap.min.css" />
+    <Content Include="app\static\content\font-awesome.css" />
+    <Content Include="app\static\content\font-awesome.min.css" />
+    <Content Include="app\static\content\main.css" />
+    <Content Include="app\static\content\main.less" />
+    <Content Include="app\static\content\owl.carousel.css" />
+    <Content Include="app\static\content\owl.transitions.css" />
+    <Content Include="app\static\content\prettyPhoto.css" />
+    <Content Include="app\static\content\responsive.css" />
+    <Content Include="app\static\fonts\fontawesome-webfont.eot" />
+    <Content Include="app\static\fonts\fontawesome-webfont.svg" />
+    <Content Include="app\static\fonts\fontawesome-webfont.ttf" />
+    <Content Include="app\static\fonts\fontawesome-webfont.woff" />
+    <Content Include="app\static\fonts\FontAwesome.otf" />
+    <Content Include="app\static\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="app\static\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="app\static\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="app\static\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="app\static\images\animated-number\bg.jpg" />
+    <Content Include="app\static\images\blog\01.jpg" />
+    <Content Include="app\static\images\blog\02.jpg" />
+    <Content Include="app\static\images\blog\03.jpg" />
+    <Content Include="app\static\images\cta2\cta2-bg.jpg" />
+    <Content Include="app\static\images\cta2\cta2-img.png" />
+    <Content Include="app\static\images\ico\apple-touch-icon-114-precomposed.png" />
+    <Content Include="app\static\images\ico\apple-touch-icon-144-precomposed.png" />
+    <Content Include="app\static\images\ico\apple-touch-icon-57-precomposed.png" />
+    <Content Include="app\static\images\ico\apple-touch-icon-72-precomposed.png" />
+    <Content Include="app\static\images\ico\favicon.ico" />
+    <Content Include="app\static\images\logo.png" />
+    <Content Include="app\static\images\portfolio\01.jpg" />
+    <Content Include="app\static\images\portfolio\02.jpg" />
+    <Content Include="app\static\images\portfolio\03.jpg" />
+    <Content Include="app\static\images\portfolio\04.jpg" />
+    <Content Include="app\static\images\portfolio\05.jpg" />
+    <Content Include="app\static\images\portfolio\06.jpg" />
+    <Content Include="app\static\images\portfolio\07.jpg" />
+    <Content Include="app\static\images\portfolio\08.jpg" />
+    <Content Include="app\static\images\portfolio\full.jpg" />
+    <Content Include="app\static\images\prettyPhoto\dark_rounded\btnNext.png" />
+    <Content Include="app\static\images\prettyPhoto\dark_rounded\btnPrevious.png" />
+    <Content Include="app\static\images\prettyPhoto\dark_rounded\contentPattern.png" />
+    <Content Include="app\static\images\prettyPhoto\dark_rounded\default_thumbnail.gif" />
+    <Content Include="app\static\images\prettyPhoto\dark_rounded\loader.gif" />
+    <Content Include="app\static\images\prettyPhoto\dark_rounded\sprite.png" />
+    <Content Include="app\static\images\prettyPhoto\dark_square\btnNext.png" />
+    <Content Include="app\static\images\prettyPhoto\dark_square\btnPrevious.png" />
+    <Content Include="app\static\images\prettyPhoto\dark_square\contentPattern.png" />
+    <Content Include="app\static\images\prettyPhoto\dark_square\default_thumbnail.gif" />
+    <Content Include="app\static\images\prettyPhoto\dark_square\loader.gif" />
+    <Content Include="app\static\images\prettyPhoto\dark_square\sprite.png" />
+    <Content Include="app\static\images\prettyPhoto\default\default_thumb.png" />
+    <Content Include="app\static\images\prettyPhoto\default\loader.gif" />
+    <Content Include="app\static\images\prettyPhoto\default\sprite.png" />
+    <Content Include="app\static\images\prettyPhoto\default\sprite_next.png" />
+    <Content Include="app\static\images\prettyPhoto\default\sprite_prev.png" />
+    <Content Include="app\static\images\prettyPhoto\default\sprite_x.png" />
+    <Content Include="app\static\images\prettyPhoto\default\sprite_y.png" />
+    <Content Include="app\static\images\prettyPhoto\facebook\btnNext.png" />
+    <Content Include="app\static\images\prettyPhoto\facebook\btnPrevious.png" />
+    <Content Include="app\static\images\prettyPhoto\facebook\contentPatternBottom.png" />
+    <Content Include="app\static\images\prettyPhoto\facebook\contentPatternLeft.png" />
+    <Content Include="app\static\images\prettyPhoto\facebook\contentPatternRight.png" />
+    <Content Include="app\static\images\prettyPhoto\facebook\contentPatternTop.png" />
+    <Content Include="app\static\images\prettyPhoto\facebook\default_thumbnail.gif" />
+    <Content Include="app\static\images\prettyPhoto\facebook\loader.gif" />
+    <Content Include="app\static\images\prettyPhoto\facebook\sprite.png" />
+    <Content Include="app\static\images\prettyPhoto\light_rounded\btnNext.png" />
+    <Content Include="app\static\images\prettyPhoto\light_rounded\btnPrevious.png" />
+    <Content Include="app\static\images\prettyPhoto\light_rounded\default_thumbnail.gif" />
+    <Content Include="app\static\images\prettyPhoto\light_rounded\loader.gif" />
+    <Content Include="app\static\images\prettyPhoto\light_rounded\sprite.png" />
+    <Content Include="app\static\images\prettyPhoto\light_square\btnNext.png" />
+    <Content Include="app\static\images\prettyPhoto\light_square\btnPrevious.png" />
+    <Content Include="app\static\images\prettyPhoto\light_square\default_thumbnail.gif" />
+    <Content Include="app\static\images\prettyPhoto\light_square\loader.gif" />
+    <Content Include="app\static\images\prettyPhoto\light_square\sprite.png" />
+    <Content Include="app\static\images\slider\bg1.jpg" />
+    <Content Include="app\static\images\slider\bg2.jpg" />
+    <Content Include="app\static\images\team\01.jpg" />
+    <Content Include="app\static\images\team\02.jpg" />
+    <Content Include="app\static\images\team\03.jpg" />
+    <Content Include="app\static\images\team\04.jpg" />
+    <Content Include="app\static\images\testimonial\01.jpg" />
+    <Content Include="app\static\images\testimonial\bg.jpg" />
+    <Content Include="app\static\images\work-process\bg.jpg" />
+    <Content Include="app\static\scripts\bootstrap.min.js" />
+    <Content Include="app\static\scripts\html5shiv.js" />
+    <Content Include="app\static\scripts\jquery.inview.min.js" />
+    <Content Include="app\static\scripts\jquery.isotope.min.js" />
+    <Content Include="app\static\scripts\jquery.js" />
+    <Content Include="app\static\scripts\jquery.prettyPhoto.js" />
+    <Content Include="app\static\scripts\main.js" />
+    <Content Include="app\static\scripts\mousescroll.js" />
+    <Content Include="app\static\scripts\owl.carousel.min.js" />
+    <Content Include="app\static\scripts\respond.min.js" />
+    <Content Include="app\static\scripts\smoothscroll.js" />
+    <Content Include="app\static\scripts\wow.min.js" />
+    <Content Include="app\templates\About.html" />
+    <Content Include="app\templates\Contact.html" />
+    <Content Include="app\templates\index.html" />
+    <Content Include="app\templates\layout.html" />
+    <Content Include="app\templates\services.html" />
+    <None Include="stellazom - FTP.pubxml" />
+    <None Include="stellazom - Web Deploy.pubxml" />
+    <None Include="cb4fc896-0ee0-4-231-b9ee - Web Deploy.pubxml" />
+    <None Include="cb4fc896-0ee0-4-231-b9ee - FTP.pubxml" />
+    <None Include="olawsite - Web Deploy.pubxml" />
+    <None Include="olawsite - FTP.pubxml" />
+    <Content Include="requirements.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="app\" />
+    <Folder Include="app\migrations\" />
+    <Folder Include="app\templates\" />
+    <Folder Include="app\static\" />
+    <Folder Include="app\static\content\" />
+    <Folder Include="app\static\fonts\" />
+    <Folder Include="app\static\images\" />
+    <Folder Include="app\static\images\animated-number\" />
+    <Folder Include="app\static\images\blog\" />
+    <Folder Include="app\static\images\cta2\" />
+    <Folder Include="app\static\images\ico\" />
+    <Folder Include="app\static\images\portfolio\" />
+    <Folder Include="app\static\images\prettyPhoto\" />
+    <Folder Include="app\static\images\prettyPhoto\dark_rounded\" />
+    <Folder Include="app\static\images\prettyPhoto\dark_square\" />
+    <Folder Include="app\static\images\prettyPhoto\default\" />
+    <Folder Include="app\static\images\prettyPhoto\facebook\" />
+    <Folder Include="app\static\images\prettyPhoto\light_rounded\" />
+    <Folder Include="app\static\images\prettyPhoto\light_square\" />
+    <Folder Include="app\static\images\slider\" />
+    <Folder Include="app\static\images\team\" />
+    <Folder Include="app\static\images\testimonial\" />
+    <Folder Include="app\static\images\work-process\" />
+    <Folder Include="app\static\scripts\" />
+    <Folder Include="Olawwsite\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="env\">
+      <Id>{11050201-4c6a-4352-ac4d-e4f350604786}</Id>
+      <BaseInterpreter>{2af0f10d-7135-4994-9156-5d01c9c11b7e}</BaseInterpreter>
+      <Version>3.4</Version>
+      <Description>env (Python 3.4)</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <LibraryPath>Lib\</LibraryPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X86</Architecture>
+    </Interpreter>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Django.targets" />
+  <!-- Specify pre- and post-build commands in the BeforeBuild and 
+       AfterBuild targets below. -->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <AutoAssignPort>True</AutoAssignPort>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
